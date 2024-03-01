@@ -11,8 +11,8 @@ This project aims to solve the problem of detecting cycles in a table that repre
 We utilize a DFS-based approach to traverse the graph and detect cycles. Two slices are used to keep track of visited nodes and the current DFS path. If a cycle is detected, appropriate actions are taken.
 
 ## Example Tree
- 1     2
-   \   /
+   1  -->  2
+   \     /
     3 -- 6
    / \
   4   5
