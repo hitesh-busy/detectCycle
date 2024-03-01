@@ -11,10 +11,15 @@ This project aims to solve the problem of detecting cycles in a table that repre
 We utilize a DFS-based approach to traverse the graph and detect cycles. Two slices are used to keep track of visited nodes and the current DFS path. If a cycle is detected, appropriate actions are taken.
 
 ## Example Tree
-   1  -->  2
-   \     /
-    3 -- 6
-   / \
-  4   5
+   1 --> 2  
+   |      |  
+   v      v  
+   3 -- 6  
+   |  
+   v  
+   4  
+   |  
+   v  
+   5  
 
 The arrows are pointing downwards to represent the direction. now  3 -> 6 and 3->5 seem like a cycle but its not.
